@@ -1,0 +1,2 @@
+# Bootstrap templates repository
+git clone https://github.com/mbr/flask-bootstrap/

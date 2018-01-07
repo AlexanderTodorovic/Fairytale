@@ -1,0 +1,21 @@
+# install python 3 and pip3 or if already installed upgrade to latest version
+pip3 install --upgrade pip
+
+
+git clone https://github.com/AlexanderTodorovic/Fairytale
+
+pip3 install virtualenv
+python -m venv venv
+venv\Scripts\activate
+pip3 install flask
+pip3 install pyodbc
+pip3 install flask-sqlalchemy
+pip3 install flask-bootstrap
+pip3 install flask-wtf
+pip3 install locustio
+pip3 freeze
+set FLASK_APP=fairytale.py
+flask run
+
+http://127.0.0.1:5000/
+http://127.0.0.1:5000/all

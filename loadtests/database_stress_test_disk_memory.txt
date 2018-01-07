@@ -1,0 +1,7 @@
+---- Running sample workload on database server -----
+
+-- Disk-based tables
+ostress -n100 -r50 -q -Ssql2017alex.westeurope.cloudapp.azure.com -dfairytale  -Ubruce -Plee -i"Disk-based tables Inserts.sql"
+
+-- Memory-based tables
+ostress -n100 -r50 -q -Ssql2017alex.westeurope.cloudapp.azure.com -dfairytale  -Ubruce -Plee -i"Memory-based tables Inserts.sql"

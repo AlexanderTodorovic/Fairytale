@@ -1,0 +1,18 @@
+#################################################################
+#Load testing
+#################################################################
+# web application load testing
+cd loadtests
+
+locust --host=http://127.0.0.1:5000
+
+http://localhost:8089/
+
+# database load testing
+Download x64 Version of RML Utilities !
+https://blogs.msdn.microsoft.com/psssql/2013/10/29/cumulative-update-2-to-the-rml-utilities-for-microsoft-sql-server-released/
+
+Start 'RML Cmd Prompt' from 'All Apps' -> 'RML Utilities for SQL Server'
+cd loadtests
+Open file C:\Users\vs2017\Documents\GitHub\Fairytale\loadtests\database_stress_test_disk_memory.txt
+Execute the ostress commands
