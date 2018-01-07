@@ -14,6 +14,12 @@ pip3 install flask-bootstrap
 pip3 install flask-wtf
 pip3 install locustio
 pip3 freeze
+
+# change database passwords
+1 change login & password in fairytale.py in line 26
+2 change login & password in /loadtests/database_stress_test_disk_memory
+
+
 set FLASK_APP=fairytale.py
 flask run
 
