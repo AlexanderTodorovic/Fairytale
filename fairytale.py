@@ -54,6 +54,13 @@ def all():
 	fts = FairyTale.query.all()
 	return render_template('fts.html',fairytales=fts)
 
+@app.route('/fairytale/<id>')
+def get_fairytale(id):
+    ft = FairyTale.query.filter_by(ftid=id).first()
+    if not ft:
+        abort(404)
+    return '{}'.format(ft.fairytale)
+
 @app.errorhandler(404)
 def page_not_found(e):
 	return render_template('404.html'), 404
