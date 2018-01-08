@@ -23,7 +23,7 @@ class FairyTaleForm(FlaskForm):
 #params = urllib.parse.quote_plus('DRIVER={SQL Server};SERVER=HARRISONS-THINK;DATABASE=LendApp;Trusted_Connection=yes;')
 # For added security, the loing and password should be removed and 
 # Windows Authentication (uses Kerberos security protocol) with Trusted_Connection=yes be used
-params = urllib.parse.quote_plus("DRIVER={SQL Server};SERVER=sql2017alex.westeurope.cloudapp.azure.com;DATABASE=fairytale;UID=bruce;PWD=Lee2017#*fist")
+params = urllib.parse.quote_plus("DRIVER={SQL Server};SERVER=sql2017alex.westeurope.cloudapp.azure.com;DATABASE=fairytale;UID=brucelee;PWD=Lee2017#*fist")
 app.config['SQLALCHEMY_DATABASE_URI'] = "mssql+pyodbc:///?odbc_connect=%s" % params
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
