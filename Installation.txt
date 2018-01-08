@@ -2,16 +2,11 @@
 Use one cloud provider environment and deploy two virtual machines or
 one virtual machine for the web application and SQL Server as Paas/Saas service
 
-
 # install python 3 and pip3 or if already installed upgrade to latest version
 pip3 install --upgrade pip
 
-
-git clone https://github.com/AlexanderTodorovic/Fairytale
-
-# create a folder
-mkdir fairytales
-cd fairytales
+# install git
+https://git-scm.com/download/win
 
 # create virtualenv and install python packages
 pip3 install virtualenv
@@ -36,7 +31,11 @@ pip3 freeze
 1 change login & password in fairytale.py in line 26
 2 change login & password in /loadtests/database_stress_test_disk_memory
 
+# clone source code
+git clone https://github.com/AlexanderTodorovic/Fairytale
+cd Fairytale
 
+# start web app
 set FLASK_APP=fairytale.py
 flask run
 
