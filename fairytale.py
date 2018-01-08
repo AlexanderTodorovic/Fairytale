@@ -18,12 +18,12 @@ Bootstrap(app)
 app.config['SECRET_KEY'] = '3d5dc27895abcb4ab117318f3db93aef4ab143c6df8e18dc8be1b5ceb9af8ca1'
 class FairyTaleForm(FlaskForm):
     fairytaletext = StringField('What is your fairy tale?', validators=[DataRequired()])
-    submit = SubmitField('Submit')	
+    submit = SubmitField('Submit')
 
 #params = urllib.parse.quote_plus('DRIVER={SQL Server};SERVER=HARRISONS-THINK;DATABASE=LendApp;Trusted_Connection=yes;')
 # For added security, the loing and password should be removed and 
 # Windows Authentication (uses Kerberos security protocol) with Trusted_Connection=yes be used
-params = urllib.parse.quote_plus("DRIVER={SQL Server};SERVER=sql2017alex.westeurope.cloudapp.azure.com;DATABASE=fairytale;UID=bruce;PWD=lee")
+params = urllib.parse.quote_plus("DRIVER={SQL Server};SERVER=sql2017alex.westeurope.cloudapp.azure.com;DATABASE=fairytale;UID=bruce;PWD=Lee2017#*fist")
 app.config['SQLALCHEMY_DATABASE_URI'] = "mssql+pyodbc:///?odbc_connect=%s" % params
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
