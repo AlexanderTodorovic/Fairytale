@@ -1,4 +1,5 @@
 ---- Running sample workload on database server -----
+Start 'RML Cmd Prompt' from 'All Apps' -> 'RML Utilities for SQL Server'
 cd loadtests
 
 -- adjust login & passwords
