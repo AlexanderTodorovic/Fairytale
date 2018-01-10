@@ -25,11 +25,15 @@ pip3 install locustio
 pip3 freeze
 
 # install database
-1 Login to your SQL Server database and run the script /database/0_create_db_fairytales.sql
+1 Login to your SQL Server database and run the scripts /database folder
 
 # change database passwords in scripts
 1 change login & password in fairytale.py in line 26
 2 change login & password in /loadtests/database_stress_test_disk_memory
+
+# Install the SQL Server RML Utilities
+# Use version RML Utilities for SQL Server (x64
+https://blogs.msdn.microsoft.com/psssql/2013/10/29/cumulative-update-2-to-the-rml-utilities-for-microsoft-sql-server-released/
 
 # clone source code
 git clone https://github.com/AlexanderTodorovic/Fairytale
