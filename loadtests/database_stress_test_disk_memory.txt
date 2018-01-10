@@ -1,4 +1,7 @@
 ---- Running sample workload on database server -----
+# Install the SQL Server RML Utilities
+# Use version RML Utilities for SQL Server (x64
+https://blogs.msdn.microsoft.com/psssql/2013/10/29/cumulative-update-2-to-the-rml-utilities-for-microsoft-sql-server-released/
 Start 'RML Cmd Prompt' from 'All Apps' -> 'RML Utilities for SQL Server'
 cd loadtests
 
