@@ -31,10 +31,6 @@ pip3 freeze
 1 change login & password in fairytale.py in line 26
 2 change login & password in /loadtests/database_stress_test_disk_memory
 
-# Install the SQL Server RML Utilities
-# Use version RML Utilities for SQL Server (x64
-https://blogs.msdn.microsoft.com/psssql/2013/10/29/cumulative-update-2-to-the-rml-utilities-for-microsoft-sql-server-released/
-
 # clone source code
 git clone https://github.com/AlexanderTodorovic/Fairytale
 cd Fairytale
@@ -43,7 +39,7 @@ cd Fairytale
 set FLASK_APP=fairytale.py
 flask run
 
-e.g.
+e.g. Fairytale website
 http://127.0.0.1:5000/
 http://127.0.0.1:5000/all
 http://127.0.0.1:5000//fairytale/1
