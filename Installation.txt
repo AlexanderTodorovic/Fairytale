@@ -25,7 +25,7 @@ pip3 install locustio
 pip3 freeze
 
 # install database
-1 Login to your SQL Server database and run the script /database/0_create_db_fairytales.sql
+1 Login to your SQL Server database and run the scripts /database folder
 
 # change database passwords in scripts
 1 change login & password in fairytale.py in line 26
@@ -39,5 +39,7 @@ cd Fairytale
 set FLASK_APP=fairytale.py
 flask run
 
+e.g. Fairytale website
 http://127.0.0.1:5000/
 http://127.0.0.1:5000/all
+http://127.0.0.1:5000//fairytale/1
