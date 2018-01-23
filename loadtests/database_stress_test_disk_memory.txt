@@ -9,7 +9,7 @@ cd loadtests
 change login & passwords in -U and -P parameter
 
 -- Disk-based tables
-ostress -n100 -r50 -q -Srm-gs54sy6582h76ysz1.mssql.singapore.rds.aliyuncs.com,3433 -dfairytale -Ubrucelee -PLee2017#*fist -i"Disk-based tables Inserts.sql"
+ostress -n100 -r50 -q -Ssqlms2017xela.westeurope.cloudapp.azure.com -dfairytale -Ubrucelee -PLee2017#*fist -i"Disk-based tables Inserts.sql"
 
 -- Memory-based tables
-ostress -n100 -r50 -q -Srm-gs54sy6582h76ysz1.mssql.singapore.rds.aliyuncs.com,3433 -dfairytale -Ubrucelee -PLee2017#*fist -i"Memory-based tables Inserts.sql"
+ostress -n100 -r50 -q -Ssqlms2017xela.westeurope.cloudapp.azure.com -dfairytale -Ubrucelee -PLee2017#*fist -i"Memory-based tables Inserts.sql"
